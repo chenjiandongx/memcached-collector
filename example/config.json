@@ -1,0 +1,4 @@
+{
+  "memcachedServer": "192.168.2.21:11211",
+  "httpUrl": "http://localhost:8099/api/push"
+}
