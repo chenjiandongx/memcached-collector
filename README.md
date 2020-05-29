@@ -1,10 +1,10 @@
 # Memcached-Collector
 
-> 📤 Collect metrics from memcached servers for consumption by aura.
+> 📤 Collect metrics from memcached servers using aura.
 
 Memcached-Collector **完全借鉴**了 [prometheus/memcached_exporter](https://github.com/prometheus/memcached_exporter) 的代码，感谢 Prometheus 官方维护了众多 exporter。本项目是利用 [aura](https://github.com/chenjiandongx/aura) 将其转换为 falcon/nightingale 支持的采集形式，并提供数据上报能力。
 
-aura 是一套为 [falcon](https://github.com/open-falcon/falcon-plus)/[nightingale](https://github.com/didi/nightingale) 服务的 SDK，但其实 aura 支持任意后端，用户可以为其定制各类 Reporter，详细信息请参考 aura 文档。
+aura 是一套为 [falcon](https://github.com/open-falcon/falcon-plus)/[nightingale](https://github.com/didi/nightingale) 服务的 SDK，且 aura 支持任意后端，用户可以为其定制各类 Reporter。
 
 ## 📝 使用
 
